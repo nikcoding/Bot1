@@ -14,7 +14,7 @@ public class Bot1 {
 	Runtime run=Runtime.getRuntime();
 	run.exec(command);
 	try {
-		
+		Thread.sleep(300);
 	}
 
 	catch(Exception e)
